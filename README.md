@@ -36,13 +36,12 @@
 - 記憶體：32GB RAM  
 
 
-## LLM 技術架構說明
-
-`vlrt_pro` 生成式功能使用到將 LLM 部署於本地的機台。以下為軟體框架說明：
-
+## 軟體技術架構
 - **核心**：大部分功能基於 Discord API (discord.py) 開發  
 - **模組化**：採用 Cog 做功能封裝，每個 Cog 可獨立管理命令和事件，方便功能拆分與維護  
-- **LLM 查詢 (vlrt_pro)**：
+
+其中 `vlrt_pro` 生成式功能使用到將 LLM 部署於本地的機台。以下為軟體框架說明：
+`vlrt_pro`：
   - 使用 Ollama 框架串接 `llama3-8b` 模型  
   - 利用 Langchain 建構 Retrieval Augmented Generation (RAG) 檢索問答系統  
   - 採用 FAISS 進行本地向量庫檢索，向量嵌入使用 HuggingFace 的 `sentence-transformers/all-MiniLM-L6-v2`  
