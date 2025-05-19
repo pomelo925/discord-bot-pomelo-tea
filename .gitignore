@@ -1,0 +1,9 @@
+# settings
+.vscode
+.env
+
+# pyc
+__pycache__
+
+# models
+.ollama

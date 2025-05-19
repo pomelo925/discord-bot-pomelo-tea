@@ -1,0 +1,8 @@
+# dataset class
+dataset_class: "vlrt_pro_settings"
+
+# raw data filename
+raw_data_name: "raw_data.xlsx" 
+
+# SentenceTransformer
+embedding_model: "all-MiniLM-L6-v2" 
