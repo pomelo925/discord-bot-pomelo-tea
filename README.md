@@ -5,12 +5,11 @@
 
 ## Demo 功能展示
 
-| 功能     | 動態展示 |
-|----------|----------|
-| Pong     | <img src="assets/pong.gif" style="width:100%;" /> |
-| WhoAmI   | <img src="assets/whoami.gif" style="width:100%;" /> |
-| TTS      | <img src="assets/tts.gif" style="width:100%;" /> |
-| vlrt_pro | <img src="assets/vlrt_pro.gif" style="width:100%;" /> |
+### 🎮 Pong
+<img src="assets/pong.gif" style="width:100%;" />
+
+### 🧠 vlrt_pro
+<img src="assets/vlrt_pro.gif" style="width:100%;" />
 
 
 ## 特點
