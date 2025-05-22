@@ -69,7 +69,9 @@ RUN pip install \
     pyyaml \
     faiss-gpu \
     sentence-transformers \
+    langchain-community \
     langchain-huggingface \
-    langchain-ollama
+    langchain-ollama \
+    "numpy<2"
 
 # USER dcuser
